@@ -1,4 +1,8 @@
 // !$*UTF8*$!
 {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
 	rootObject = 2CDDD8F02E6797B3006E60DE /* Project object */;
 }
