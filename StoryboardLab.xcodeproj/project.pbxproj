@@ -60,6 +60,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2CDDD8F62E6797B3006E60DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDDD8F42E6797B3006E60DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
 /* Begin XCConfigurationList section */
 		2CDDD8F32E6797B3006E60DE /* Build configuration list for PBXProject "StoryboardLab" */ = {
 			isa = XCConfigurationList;
