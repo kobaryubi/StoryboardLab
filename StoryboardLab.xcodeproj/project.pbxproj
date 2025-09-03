@@ -60,6 +60,31 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		2CDDD8F72E6797B3006E60DE /* StoryboardLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDDD90B2E6797B4006E60DE /* Build configuration list for PBXNativeTarget "StoryboardLab" */;
+			buildPhases = (
+				2CDDD8F42E6797B3006E60DE /* Sources */,
+				2CDDD8F52E6797B3006E60DE /* Frameworks */,
+				2CDDD8F62E6797B3006E60DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2CDDD8FA2E6797B3006E60DE /* StoryboardLab */,
+			);
+			name = StoryboardLab;
+			packageProductDependencies = (
+			);
+			productName = StoryboardLab;
+			productReference = 2CDDD8F82E6797B3006E60DE /* StoryboardLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		2CDDD8F02E6797B3006E60DE /* Project object */ = {
 			isa = PBXProject;
