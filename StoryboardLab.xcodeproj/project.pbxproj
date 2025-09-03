@@ -137,6 +137,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin XCBuildConfiguration section */
+		2CDDD90C2E6797B4006E60DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2CDDD90D2E6797B4006E60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2CDDD90E2E6797B4006E60DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2CDDD90F2E6797B4006E60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
 /* Begin XCConfigurationList section */
 		2CDDD8F32E6797B3006E60DE /* Build configuration list for PBXProject "StoryboardLab" */ = {
 			isa = XCConfigurationList;
