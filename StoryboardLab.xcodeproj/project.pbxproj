@@ -60,6 +60,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXProject section */
+		2CDDD8F02E6797B3006E60DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2CDDD8F72E6797B3006E60DE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CDDD8F32E6797B3006E60DE /* Build configuration list for PBXProject "StoryboardLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CDDD8EF2E6797B3006E60DE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2CDDD8F92E6797B3006E60DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDDD8F72E6797B3006E60DE /* StoryboardLab */,
+			);
+		};
+/* End PBXProject section */
+
 /* Begin PBXResourcesBuildPhase section */
 		2CDDD8F62E6797B3006E60DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
