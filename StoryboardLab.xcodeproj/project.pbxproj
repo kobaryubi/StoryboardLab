@@ -19,6 +19,17 @@
 			target = 2CDDD8F72E6797B3006E60DE /* StoryboardLab */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2CDDD8FA2E6797B3006E60DE /* StoryboardLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2CDDD90A2E6797B4006E60DE /* Exceptions for "StoryboardLab" folder in "StoryboardLab" target */,
+			);
+			path = StoryboardLab;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 	};
 	rootObject = 2CDDD8F02E6797B3006E60DE /* Project object */;
 }
