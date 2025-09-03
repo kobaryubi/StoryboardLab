@@ -15,8 +15,27 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qme-hB-MhL">
+                                <rect key="frame" x="175.66666666666666" y="298" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccd-fT-ZD1">
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NOy-5S-crf"/>
+                            <constraint firstItem="qme-hB-MhL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RJ9-7J-Pmw"/>
+                            <constraint firstItem="qme-hB-MhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQh-9m-hJz"/>
+                            <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zhL-h3-z91"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
