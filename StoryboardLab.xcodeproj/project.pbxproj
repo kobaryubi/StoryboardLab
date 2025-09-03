@@ -4,5 +4,11 @@
 	classes = {
 	};
 	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2CDDD8F82E6797B3006E60DE /* StoryboardLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+	};
 	rootObject = 2CDDD8F02E6797B3006E60DE /* Project object */;
 }
