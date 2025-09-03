@@ -30,6 +30,35 @@
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDDD8F52E6797B3006E60DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDDD8EF2E6797B3006E60DE = {
+			isa = PBXGroup;
+			children = (
+				2CDDD8FA2E6797B3006E60DE /* StoryboardLab */,
+				2CDDD8F92E6797B3006E60DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDDD8F92E6797B3006E60DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDDD8F82E6797B3006E60DE /* StoryboardLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 	};
 	rootObject = 2CDDD8F02E6797B3006E60DE /* Project object */;
 }
