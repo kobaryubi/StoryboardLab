@@ -9,6 +9,16 @@
 /* Begin PBXFileReference section */
 		2CDDD8F82E6797B3006E60DE /* StoryboardLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2CDDD90A2E6797B4006E60DE /* Exceptions for "StoryboardLab" folder in "StoryboardLab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2CDDD8F72E6797B3006E60DE /* StoryboardLab */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 	};
 	rootObject = 2CDDD8F02E6797B3006E60DE /* Project object */;
 }
