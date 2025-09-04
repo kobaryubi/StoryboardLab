@@ -30,13 +30,21 @@
                                     <action selector="sayHello" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNZ-64-LV8"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hc2-lI-n7k">
+                                <rect key="frame" x="175.66666666666666" y="518" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NOy-5S-crf"/>
+                            <constraint firstItem="Hc2-lI-n7k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R2B-W4-HeJ"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RJ9-7J-Pmw"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQh-9m-hJz"/>
+                            <constraint firstItem="Hc2-lI-n7k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="400" id="nTj-Ju-eOM"/>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zhL-h3-z91"/>
                         </constraints>
                     </view>
