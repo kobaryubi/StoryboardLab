@@ -70,7 +70,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6H-GA-HAQ">
                                 <rect key="frame" x="0.0" y="696" width="393" height="44"/>
                                 <items>
-                                    <barButtonItem systemItem="camera" id="Hco-0K-gnM"/>
+                                    <barButtonItem systemItem="camera" id="Hco-0K-gnM">
+                                        <connections>
+                                            <action selector="launchCamera:" destination="BYZ-38-t0r" id="xn0-bI-MMj"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -102,6 +106,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cameraImageView" destination="oaO-C6-dRp" id="UsP-Vq-bM3"/>
                         <outlet property="imageView" destination="sbk-5Q-qh7" id="9rJ-h8-KGl"/>
                         <outlet property="label" destination="qme-hB-MhL" id="qrf-vd-2iI"/>
                         <outlet property="sliderLabel" destination="Hc2-lI-n7k" id="6W5-Fm-87R"/>
