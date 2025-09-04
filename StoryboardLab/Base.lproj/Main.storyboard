@@ -79,6 +79,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ImageView" destination="sbk-5Q-qh7" id="1jC-HU-FUL"/>
                         <outlet property="label" destination="qme-hB-MhL" id="qrf-vd-2iI"/>
                         <outlet property="sliderLabel" destination="Hc2-lI-n7k" id="6W5-Fm-87R"/>
                     </connections>
