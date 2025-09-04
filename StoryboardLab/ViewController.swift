@@ -6,6 +6,9 @@ class ViewController: UIViewController {
         label.text = "Hello, World!"
     }
     @IBOutlet weak var sliderLabel: UILabel!
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
+        sliderLabel.text = "\(sender.value)"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

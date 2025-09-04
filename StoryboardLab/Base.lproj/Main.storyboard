@@ -41,6 +41,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="bgt-6h-7Xb"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="r3k-SC-3G7"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
