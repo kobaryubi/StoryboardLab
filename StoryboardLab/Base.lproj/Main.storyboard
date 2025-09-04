@@ -36,8 +36,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bAc-OZ-y3j">
-                                <rect key="frame" x="137.66666666666666" y="594" width="118" height="30"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bAc-OZ-y3j">
+                                <rect key="frame" x="137.66666666666666" y="639" width="118" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="114" id="bgt-6h-7Xb"/>
                                 </constraints>
@@ -46,6 +46,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="bAc-OZ-y3j" firstAttribute="top" secondItem="Hc2-lI-n7k" secondAttribute="bottom" constant="100" id="D2B-FC-fyb"/>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NOy-5S-crf"/>
                             <constraint firstItem="Hc2-lI-n7k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R2B-W4-HeJ"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RJ9-7J-Pmw"/>
