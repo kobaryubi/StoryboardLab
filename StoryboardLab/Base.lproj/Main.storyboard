@@ -71,7 +71,7 @@
                                 <rect key="frame" x="0.0" y="696" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="Hco-0K-gnM"/>
+                                    <barButtonItem systemItem="camera" id="Hco-0K-gnM"/>
                                 </items>
                             </toolbar>
                         </subviews>
