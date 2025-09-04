@@ -9,6 +9,13 @@ class ViewController: UIViewController {
     @IBAction func sliderValueChanged(_ sender: UISlider) {
         sliderLabel.text = "\(sender.value)"
     }
+    @IBOutlet weak var imageView: UIImageView!
+    @IBAction func showActivityView(_ sender: UIBarButtonItem) {
+        let controller = UIActivityViewController(
+            activityItems: [imageView.image!], applicationActivities: nil
+        )
+        self.present(controller, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
