@@ -67,9 +67,8 @@
                                     <constraint firstAttribute="height" constant="319" id="uCf-2e-1XB"/>
                                 </constraints>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6H-GA-HAQ">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6H-GA-HAQ">
                                 <rect key="frame" x="0.0" y="696" width="393" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem systemItem="camera" id="Hco-0K-gnM"/>
                                 </items>
@@ -84,13 +83,16 @@
                             <constraint firstItem="bAc-OZ-y3j" firstAttribute="top" secondItem="Hc2-lI-n7k" secondAttribute="bottom" constant="100" id="D2B-FC-fyb"/>
                             <constraint firstItem="sbk-5Q-qh7" firstAttribute="trailing" secondItem="LDO-KF-Qty" secondAttribute="trailing" id="J3I-jT-liF"/>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NOy-5S-crf"/>
+                            <constraint firstItem="H6H-GA-HAQ" firstAttribute="leading" secondItem="LDO-KF-Qty" secondAttribute="leading" id="P4h-6Q-XEH"/>
                             <constraint firstItem="Hc2-lI-n7k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R2B-W4-HeJ"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RJ9-7J-Pmw"/>
                             <constraint firstItem="sbk-5Q-qh7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UAW-7T-LGq"/>
                             <constraint firstItem="sbk-5Q-qh7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="c5T-c1-uaa"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQh-9m-hJz"/>
+                            <constraint firstItem="H6H-GA-HAQ" firstAttribute="top" secondItem="bAc-OZ-y3j" secondAttribute="bottom" constant="27" id="fJM-tt-9rN"/>
                             <constraint firstItem="Hc2-lI-n7k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="400" id="nTj-Ju-eOM"/>
                             <constraint firstItem="oaO-C6-dRp" firstAttribute="trailing" secondItem="LDO-KF-Qty" secondAttribute="trailing" id="ntL-WZ-gtm"/>
+                            <constraint firstItem="H6H-GA-HAQ" firstAttribute="trailing" secondItem="LDO-KF-Qty" secondAttribute="trailing" id="oBY-3b-Rgm"/>
                             <constraint firstItem="LDO-KF-Qty" firstAttribute="centerX" secondItem="bAc-OZ-y3j" secondAttribute="centerX" id="ohq-rg-kOF"/>
                             <constraint firstItem="oaO-C6-dRp" firstAttribute="leading" secondItem="LDO-KF-Qty" secondAttribute="leading" id="swr-Az-8fO"/>
                             <constraint firstItem="sbk-5Q-qh7" firstAttribute="centerY" secondItem="ccd-fT-ZD1" secondAttribute="centerY" id="t3h-CE-njz"/>
