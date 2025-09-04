@@ -54,7 +54,11 @@
                                     <constraint firstAttribute="height" constant="44" id="Ng5-bO-9zv"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem systemItem="action" id="h7R-B8-Xcj"/>
+                                    <barButtonItem systemItem="action" id="h7R-B8-Xcj">
+                                        <connections>
+                                            <action selector="showActivityView:" destination="BYZ-38-t0r" id="Rnf-zv-yYV"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -79,7 +83,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="ImageView" destination="sbk-5Q-qh7" id="1jC-HU-FUL"/>
+                        <outlet property="imageView" destination="sbk-5Q-qh7" id="9rJ-h8-KGl"/>
                         <outlet property="label" destination="qme-hB-MhL" id="qrf-vd-2iI"/>
                         <outlet property="sliderLabel" destination="Hc2-lI-n7k" id="6W5-Fm-87R"/>
                     </connections>
