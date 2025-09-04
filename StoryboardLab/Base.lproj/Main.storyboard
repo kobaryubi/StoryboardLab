@@ -30,26 +30,13 @@
                                     <action selector="sayHello" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNZ-64-LV8"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="xlf-Ag-lMu">
-                                <rect key="frame" x="137" y="634" width="118" height="31"/>
-                            </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQE-R6-cl5">
-                                <rect key="frame" x="175.66666666666666" y="513" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xlf-Ag-lMu" firstAttribute="top" secondItem="WQE-R6-cl5" secondAttribute="bottom" constant="100" id="9Hw-wV-uiN"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xlf-Ag-lMu" secondAttribute="bottom" constant="120" id="N0z-9i-WmR"/>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NOy-5S-crf"/>
-                            <constraint firstItem="WQE-R6-cl5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pw5-ue-YML"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="RJ9-7J-Pmw"/>
                             <constraint firstItem="qme-hB-MhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dQh-9m-hJz"/>
-                            <constraint firstItem="xlf-Ag-lMu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="huX-LH-NL0"/>
                             <constraint firstItem="ccd-fT-ZD1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zhL-h3-z91"/>
                         </constraints>
                     </view>
