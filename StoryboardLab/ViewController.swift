@@ -15,7 +15,13 @@ class ViewController: UIViewController {
             activityItems: [imageView.image!],
             applicationActivities: nil
         )
-        self.present(controller, animated: true, completion: nil)
+        self.present(
+            controller,
+            animated: true,
+            completion: {
+                print("表示完了")
+            }
+        )
     }
 
     override func viewDidLoad() {
