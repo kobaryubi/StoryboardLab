@@ -33,6 +33,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="SnO-71-392" kind="show" id="bFF-vl-y6e"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -53,13 +56,30 @@
                     <view key="view" contentMode="scaleToFill" id="3Gg-TG-qRu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tS3-mZ-6jz">
+                                <rect key="frame" x="0.0" y="162" width="393" height="690"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Oav-Fn-BKo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tS3-mZ-6jz" firstAttribute="centerX" secondItem="3Gg-TG-qRu" secondAttribute="centerX" id="eS5-Sv-iSy"/>
+                            <constraint firstItem="tS3-mZ-6jz" firstAttribute="leading" secondItem="Oav-Fn-BKo" secondAttribute="leading" id="qLC-pd-gJ0"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="tS3-mZ-6jz" secondAttribute="bottom" constant="-68" id="rva-Lr-m5f"/>
+                            <constraint firstItem="tS3-mZ-6jz" firstAttribute="top" secondItem="Oav-Fn-BKo" secondAttribute="top" id="ztX-uw-02q"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="6Ox-M1-0o6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpz-Z5-ZK0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416" y="137"/>
+            <point key="canvasLocation" x="1414.5038167938931" y="136.61971830985917"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GBi-LT-5WQ">
