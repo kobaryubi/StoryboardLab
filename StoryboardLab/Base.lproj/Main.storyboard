@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="736.64122137404581" y="136.61971830985917"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="xT3-cb-PZ6">
             <objects>
-                <viewController id="SnO-71-392" sceneMemberID="viewController">
+                <viewController id="SnO-71-392" customClass="DetailViewController" customModule="StoryboardLab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Gg-TG-qRu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
