@@ -1,4 +1,6 @@
 import UIKit
 import WebKit
 
-class DetailViewController: UIViewController {}
+class DetailViewController: UIViewController {
+    @IBOutlet weak var webView: WKWebView!
+}

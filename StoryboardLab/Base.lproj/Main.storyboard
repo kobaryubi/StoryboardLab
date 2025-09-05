@@ -76,6 +76,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6Ox-M1-0o6"/>
+                    <connections>
+                        <outlet property="webView" destination="tS3-mZ-6jz" id="gd5-XY-rPE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpz-Z5-ZK0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
