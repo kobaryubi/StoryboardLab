@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4C6C9C2E6AA9AD00AA07E2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4C6C9B2E6AA9AD00AA07E2 /* WebKit.framework */; };
 		2CDDD9352E68102B006E60DE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD9342E68102B006E60DE /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4C6C9B2E6AA9AD00AA07E2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		2CDDD8F82E6797B3006E60DE /* StoryboardLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD9342E68102B006E60DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4C6C9C2E6AA9AD00AA07E2 /* WebKit.framework in Frameworks */,
 				2CDDD9352E68102B006E60DE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +71,7 @@
 		2CDDD9332E68102B006E60DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C4C6C9B2E6AA9AD00AA07E2 /* WebKit.framework */,
 				2CDDD9342E68102B006E60DE /* MapKit.framework */,
 			);
 			name = Frameworks;
