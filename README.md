@@ -18,3 +18,9 @@ $ gem install bundler
 ```sh
 $ bundle init
 ```
+
+## Add gem to the Gemfile and run bundle install
+
+```sh
+$ bundle add cocoapods
+```
