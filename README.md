@@ -24,3 +24,9 @@ $ bundle init
 ```sh
 $ bundle add cocoapods
 ```
+
+## Execute a command in the context of the bundle
+
+```sh
+$ bundle exec pod install
+```
